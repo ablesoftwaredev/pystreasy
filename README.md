@@ -1,6 +1,8 @@
-# pystreasy
+# pystreasy: makes working with strings easier
 
-## Makes working with strings easier
+## Installation
+
+    pip install pystreasy
 
 ## v 0.1.0
 
