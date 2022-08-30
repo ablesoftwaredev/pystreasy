@@ -38,3 +38,26 @@ def is_ip_address_valid(ip_address: str) -> bool:
 
     except:
         return f"invalid input:{ip_address}"
+
+
+def is_palindrome(string: str) -> bool:
+    """Check if the string is a palindrome.
+
+    Args:
+        string (str): The string to check.
+
+    Returns:
+        bool: True if the string is a palindrome, False
+    """
+    # did user enter a string?
+    if type(string) is not str:
+        return "invalid input: You need to enter a string"
+
+    # empty string
+    if len(string) == 0:
+        return "invalid input: empty string"
+    try:
+        result = True if string[::-1] == string else False
+        return result
+    except:
+        return False
