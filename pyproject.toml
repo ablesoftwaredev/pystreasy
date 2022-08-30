@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pystreasy"
-version = "0.1.2"
+version = "0.1.3"
 description = "makes working with strings easy"
 repository = "https://github.com/ablesoftwaredev/pystreasy"
 license = "MIT"
