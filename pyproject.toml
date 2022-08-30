@@ -3,6 +3,7 @@ name = "pystreasy"
 version = "0.1.0"
 description = "makes working with strings easy"
 repository = "https://github.com/ablesoftwaredev/pystreasy"
+license = "MIT"
 authors = [
     "ablesoftwaredev <48694187+ablesoftwaredev@users.noreply.github.com>"
 ]
