@@ -4,7 +4,7 @@
 
     pip install pystreasy
 
-## v 0.1.0
+## v 0.1.2
 
 utils.py
 
