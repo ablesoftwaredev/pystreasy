@@ -1,5 +1,7 @@
 # pystreasy: makes working with strings easier
 
+[![Downloads](https://pepy.tech/badge/pystreasy)](https://pepy.tech/project/pystreasy)
+
 ## Installation
 
     pip install pystreasy
