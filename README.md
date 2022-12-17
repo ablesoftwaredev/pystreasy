@@ -6,13 +6,21 @@
 
     pip install pystreasy
 
+## v 0.1.4
+
+utils.py
+
+- [x] is_prime(num: int) -> bool
+
+  accepts a integer number and returns True if it is a prime number else False
+
 ## v 0.1.3
 
 utils.py
 
 - [x] is_palindrome(string: str) -> bool
 
-    accepts a string and returns True if it is a palindrome else False
+  accepts a string and returns True if it is a palindrome else False
 
 ## v 0.1.2
 
@@ -20,4 +28,4 @@ utils.py
 
 - [x] is_ip_address_valid(ip_address: str) -> bool
 
-    accepts a string and returns True if it is a valid IPv4 ip address
+  accepts a string and returns True if it is a valid IPv4 ip address
