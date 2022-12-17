@@ -61,3 +61,40 @@ def is_palindrome(string: str) -> bool:
         return result
     except:
         return False
+
+
+def is_prime(number: int) -> bool:
+    """Check if specified number is a prime number.
+
+    Args:
+        number (int): The number to check.
+
+    Returns:
+        bool: True if the number is a prime number else returns False
+    """
+    # did user enter a number?
+    if type(number) is not int:
+        return "invalid input: You need to enter a number"
+
+    # check for -ve numbers
+    if number < 0:
+        return "invalid input: You need to enter a positive number"
+
+    # check for 0 and 1
+    if number == 0 or number == 1:
+        return False
+
+    # check for 2
+    if number == 2:
+        return True
+
+    # check for even numbers
+    if number % 2 == 0:
+        return False
+
+    # check for odd numbers
+    for i in range(3, number):
+        if number % i == 0:
+            return False
+
+    return True
